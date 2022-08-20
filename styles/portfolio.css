@@ -21,6 +21,7 @@
 .hero h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h3 {
@@ -51,9 +52,35 @@ ul {
 
 img {
   border-radius: 6px;
-  width: 400px;
+  width: 550px;
 }
 
-.details {
-  margin: 20px 40px;
+h2 {
+  font-size: 60px;
+  font-family: var(--heading-font-family);
+}
+
+li {
+  font-size: 18px;
+}
+
+.description {
+  padding: 20px 30px;
+}
+
+@media (max-width: 960px) {
+  .hero {
+    padding: 60px 40px;
+  }
+
+  .description {
+    text-align: center;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .hero h1 {
+    font-size: 80px;
+    line-height: 1.5;
+  }
 }
