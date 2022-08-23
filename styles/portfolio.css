@@ -51,6 +51,10 @@
   width: 450px;
 }
 
+.navbar-brand {
+  width: 120px;
+}
+
 .about-section-content {
   margin: 0px 30px;
 }
