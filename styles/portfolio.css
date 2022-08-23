@@ -15,6 +15,10 @@
   padding: 160px 20px;
 }
 
+.work {
+  padding: 160px 120px;
+}
+
 .hero h2 {
   font-family: var(--default-font-family);
   font-size: 36px;
@@ -83,6 +87,7 @@ ul {
 img {
   border-radius: 6px;
   width: 550px;
+  height: 400px;
 }
 
 h2 {
