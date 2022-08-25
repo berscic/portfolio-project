@@ -167,7 +167,7 @@ li {
     text-align: center;
   }
   h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .hero h1 {
     font-size: 80px;
@@ -175,6 +175,33 @@ li {
   }
   .about-section {
     text-align: center;
+    padding: 160px 20px 20px 20px;
+  }
+
+  .course-img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .content {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .work {
+    padding: 120px 50px 70px 50px;
+    text-align: center;
+  }
+
+  .contact {
+    padding: 160px 50px 50px 50px;
+  }
+  .footer-btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+  h4 {
+    font-size: 20px;
   }
 }
 
