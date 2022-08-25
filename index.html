@@ -21,7 +21,11 @@
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Bernice is a Midwife who offers childbirth education courses to expectant parents."
+    />
+    <title>Midwife - Bernice Scicluna</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
@@ -45,16 +49,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                title="Home page"
+                href="/index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
+              <a class="nav-link" title="About page" href="/about.html"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">What you will Learn</a>
+              <a class="nav-link" title="What you will Learn" href="/work.html"
+                >What you will Learn</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" title="Contact page" href="/contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -66,7 +82,9 @@
       <h1>Bernice Scicluna</h1>
       <h3 class="mb-3">Midwife based in Malta</h3>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" title="Contact page" class="btn btn-branding"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="m-5 text-center">
@@ -91,7 +109,12 @@
                 <li>Minor ailments of pregnancy</li>
                 <li>Healthy habits during pregnancy</li>
               </ul>
-              <a href="#" class="btn btn-branding">Register interest</a>
+              <a
+                href="mailto:bernicescicluna@gmail.com"
+                class="btn btn-branding"
+                title="Email link"
+                >Register interest</a
+              >
             </div>
           </div>
         </div>
@@ -107,7 +130,12 @@
                 <li>Emergencies</li>
                 <li>Pain strategies</li>
               </ul>
-              <a href="#" class="btn btn-branding">Register interest</a>
+              <a
+                href="mailto:bernicescicluna@gmail.com"
+                class="btn btn-branding"
+                title="Email link"
+                >Register interest</a
+              >
             </div>
           </div>
           <div class="col-sm-6 mb-5 d-none d-md-block">
@@ -137,7 +165,12 @@
                 <li>Baby Care</li>
                 <li>Mental Health</li>
               </ul>
-              <a href="#" class="btn btn-branding">Register interest</a>
+              <a
+                href="mailto:bernicescicluna@gmail.com"
+                class="btn btn-branding"
+                title="Email link"
+                >Register interest</a
+              >
             </div>
           </div>
         </div>
@@ -151,31 +184,52 @@
             <p class="text-muted">Let's work together!</p>
           </div>
           <div>
-            <a href="/contact.html" class="btn btn-branding footer-btn"
+            <a
+              href="/contact.html"
+              title="Contact page"
+              class="btn btn-branding footer-btn"
               >Contact me</a
             >
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <a class="email-link" href="mailto:bernicescicluna@gmail.com"
+          <a
+            class="email-link"
+            title="Email"
+            href="mailto:bernicescicluna@gmail.com"
             >bernicescicluna@gmail.com</a
           >
         </div>
-        <div class="social-links d-flex justify-content-center">
+        <div
+          title="Facebook page"
+          class="social-links d-flex justify-content-center"
+        >
           <a href="https://www.facebook.com/bernice.scicluna.7" target="_blank"
             ><i class="fa-brands fa-facebook"></i
           ></a>
-          <a href="https://github.com/berscic/portfolio-project" target="_blank"
+          <a title="github" href="https://github.com/berscic" target="_blank"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.instagram.com/bernicescicluna/" target="_blank"
+          <a
+            title="Instagram page"
+            href="https://www.instagram.com/bernicescicluna/"
+            target="_blank"
             ><i class="fa-brands fa-instagram"></i
           ></a>
         </div>
       </footer>
     </div>
     <hr />
-    <h5>Coded by Bernice Scicluna</h5>
+    <h5>
+      Coded by
+      <a
+        class="git"
+        title="Open source github repository"
+        href="https://github.com/berscic/portfolio-project"
+        target="_blank"
+        >Bernice Scicluna</a
+      >
+    </h5>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

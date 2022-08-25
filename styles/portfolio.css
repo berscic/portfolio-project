@@ -184,3 +184,14 @@ h5 {
   font-size: 15px;
   opacity: 0.8;
 }
+
+.git {
+  font-family: var(--heading-font-family);
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.git:hover {
+  color: var(--branding-colour);
+}
